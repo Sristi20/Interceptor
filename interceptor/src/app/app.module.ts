@@ -8,11 +8,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { SelfComponent } from './self/self.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import {AuthenticationInterceptor} from './AuthenticationInterceptor';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SelfComponent
+    SelfComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
